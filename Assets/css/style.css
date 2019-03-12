@@ -1,0 +1,21 @@
+header {
+    background-color: lightblue;
+    width: 100%
+}
+
+header h1 {
+    background-color: aqua;
+    width: 200px;
+}
+
+.container {
+    flex-flow: row;
+}
+
+h1 {
+    width: 30%;
+}
+
+h3 {
+    width: 10%;
+}
