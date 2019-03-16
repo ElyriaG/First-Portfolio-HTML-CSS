@@ -33,14 +33,14 @@ header h1 {
     margin-bottom: 0;
     padding: 11.5px 8px;
     text-align: center;
-    margin-left: 67px;
+    margin-left: 50px;
 }
 
 .container {
     flex-flow: row;
 }
 
-nav {
+#contact, #portfolio, #about {
     float: right;
     padding: 10px;
     margin-top: 10px;
@@ -48,7 +48,7 @@ nav {
 
 #contact {
     padding-right: 0;
-    margin-right: 67px;
+    margin-right: 65px;
 }
 
 .aboutme {
@@ -125,4 +125,22 @@ p {
 
 #textbox {
     height: 100px;
+    font-size: 12pt;
+}
+
+.Submit {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.Submit h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#home {
+    margin: 0 0 auto !important;
+    size: 300%;
 }
